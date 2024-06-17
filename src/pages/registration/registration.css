@@ -1,0 +1,96 @@
+
+  
+  @media (min-width: 601px) {
+    .reg_container {
+      width: 500px;
+      height: 450px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 16px;
+      gap: 24px;
+      border-radius: 16px;
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .reg_container {
+      width: 90%;
+      height: auto;
+      position: relative;
+      top: 5%;
+      left: 5%;
+      transform: translate(0, 0);
+      padding: 8px;
+      gap: 12px;
+    }
+  }
+
+  .reg_form {
+    width: Fill (468px) px;
+    height: Hug (415px) px;
+    gap: 16px;
+    margin-left: -10px;
+  }
+  
+  .reg_h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -2px;
+  }
+  
+  .reg_imput1 {
+    width: 468px;
+    height: 78px;
+    gap: 8px;
+    margin-bottom: 13px;
+  }
+  
+  .reg_input {
+    width: 100%;
+    height: 30px;
+    padding: 12px 8px 12px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    background: #f8f8f8;
+    border: none;
+    margin: 5px;
+  }
+  
+  .reg_label {
+    width: Fill (468px) px;
+    height: Hug (22px) px;
+    gap: 8px;
+    margin: 12px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+  }
+  
+  .reg_button {
+    width: 494px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #512689;
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,117 @@
+.home_head {
+  background-color: #512689;
+  width: 100%;
+  height: 265px;
+  gap: 0px;
+  text-align: right;
+  padding: 10px;
+}
+
+.home_button {
+  margin-right: 100px;
+  width: 81px;
+  height: 38px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-top: 14px;
+  margin-bottom: -10px;
+}
+
+.home_text {
+  text-align: center;
+  color: antiquewhite;
+  margin-top: 9px;
+}
+
+.home_h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  margin-bottom: -10px;
+}
+
+.p_home {
+  display: inline;
+ 
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+}
+
+.home_profile_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 6px;
+  margin-left: 20px;
+}
+
+.home_profile {
+  width: 130px; 
+  height: 130px; 
+  padding: 36px 50px 20px 80px; 
+  border-radius: 16px; 
+  cursor: pointer; 
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+}
+
+.home_profile:hover{
+  border-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .home_head {
+    height: 300px;
+    width: 38vh;
+  }
+
+  .home_button {
+    margin-right: 20px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .home_text {
+    text-align: center;
+    color: antiquewhite;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  .home_h1 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 5px;
+  }
+
+  .p_home {
+    display: block;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .home_profile_container {
+    grid-template-columns: 1fr;
+    align-items: center; 
+  }
+
+  .home_profile {
+    width: 50%; 
+    height: auto; 
+    padding: 18px 25px; 
+  }
+  
+}
