@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{Kinderpipka}.github.io/{Personal-Area.github.io}",
+  
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -48,9 +48,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
   }
+  
 }
