@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%7BPersonal-Area.github.io%7D/static/css/main.25a1550d.css",
+    "main.js": "/%7BPersonal-Area.github.io%7D/static/js/main.667d55c8.js",
+    "static/js/453.ed3810f9.chunk.js": "/%7BPersonal-Area.github.io%7D/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/%7BPersonal-Area.github.io%7D/index.html",
+    "main.25a1550d.css.map": "/%7BPersonal-Area.github.io%7D/static/css/main.25a1550d.css.map",
+    "main.667d55c8.js.map": "/%7BPersonal-Area.github.io%7D/static/js/main.667d55c8.js.map",
+    "453.ed3810f9.chunk.js.map": "/%7BPersonal-Area.github.io%7D/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a1550d.css",
+    "static/js/main.667d55c8.js"
+  ]
+}
